@@ -36,7 +36,7 @@ public class Jala {
 		//print size of set
 		System.out.println("Size of map is : "+set.size());
 		
-		//remove a specific name in set
+		//remove a specific key-value pair
 		set.remove("Sai");
 		
 		//iterating
@@ -45,11 +45,11 @@ public class Jala {
 		{
 			System.out.println(it.next());
 		}
-  
-    //Removing all elements in set
+		//Removing all elements in set
 		set.removeAll(set);
-  
-    //Clear
-    set.clear();
+
+		//Clear
+		set.clear();
+
 	}
 }
